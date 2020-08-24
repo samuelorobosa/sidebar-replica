@@ -1,0 +1,601 @@
+  body{
+        margin: 0; 
+      overflow-y: hidden;
+        }
+        
+        
+        
+        h2{
+            opacity: 0;
+                margin-top: 100px;
+            position: relative;
+            color: white;
+        
+        }
+        
+        
+        #menu{
+            border-bottom: 1px solid black;
+            text-align: end;
+            padding-top: 0.4%;
+            padding-bottom: 2.2%;
+            padding-right: 2%;
+        }
+        
+        #container{
+            display: flex;
+            position: relative;
+        }
+
+
+/* navbars style*/
+      #first,#second,#third{
+          position: absolute;
+            background: black;
+          width: calc(100%/3);
+          border-bottom-left-radius: 80px;
+          border-bottom-right-radius: 80px;
+        }
+
+        
+        #second{
+            left: 33.33%;
+        }
+        
+        #first{
+             left: 66.66%;
+        }
+        
+/*Navbar style ends here*/
+
+/*Navbar forward animation*/
+
+    @keyframes anim {
+            0%{
+                height: 0vh;
+            }
+            
+            100%{
+                height: 100vh;
+            }
+        }
+
+        .second-bar-anim{
+                        animation-name: anim;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+        
+        .third-bar-anim{
+             animation-name: anim;
+            animation-duration: 3s;
+              animation-fill-mode: forwards;
+        }
+        
+        .first-bar-anim{
+            animation-name: anim;
+            animation-duration: 1.5s;
+            animation-fill-mode: forwards;
+        }
+        
+/*Navbar forward animation ends here*/
+
+/*Navbar return animation*/
+
+          @keyframes anim1_0 {
+            from{
+                height: 100vh;
+            }
+            
+            to{
+                height: 0vh;
+            }
+        }
+        
+         .return-bar1{
+                        animation-name: anim1_0;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+        
+        .return-bar2{
+             animation-name: anim1_0;
+            animation-duration: 3s;
+              animation-fill-mode: forwards;
+        }
+        
+        .return-bar0{
+            animation-name: anim1_0;
+            animation-duration: 1.5s;
+            animation-fill-mode: forwards;
+        }
+        
+/*navbar return animation*/
+        
+    /*Navlinks foward animation*/      
+        
+        
+/*        First header*/
+        @keyframes anim-head{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: -50px;
+            }
+            
+        }
+        
+        .first-head{
+            margin-top: 450px;
+            animation-name: anim-head;
+            animation-duration: 1.5s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }  
+        
+        
+/*        First header ends here*/
+        
+        /*Second header starts here*/
+        
+         @keyframes anim-head2{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .second-head{
+            margin-top: 450px;
+            animation-name: anim-head2;
+            animation-duration: 1.7s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        Second header starts here*/
+        
+             /*Third header starts here*/
+        
+         @keyframes anim-head3{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .third-head{
+            margin-top: 450px;
+            animation-name: anim-head3;
+            animation-duration: 1.9s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        third header ends here*/
+        
+                /*Fourth header starts here*/
+        
+         @keyframes anim-head4{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .fourth-head{
+            margin-top: 450px;
+            animation-name: anim-head4;
+            animation-duration: 2.1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        Fourth header starts here*/
+        
+   
+                
+                /*Fifth header starts here*/
+        
+         @keyframes anim-head5{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .fifth-head{
+            margin-top: 450px;
+            animation-name: anim-head5;
+            animation-duration: 2.4s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        Fifth header starts here*/
+        
+    
+                      
+                /*Sixth header starts here*/
+        
+         @keyframes anim-head6{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .sixth-head{
+            margin-top: 450px;
+            animation-name: anim-head6;
+            animation-duration: 2.6s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        sixth header starts here*/
+        
+    
+    
+                      /*Seventh header starts here*/
+        
+         @keyframes anim-head7{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .seventh-head{
+            margin-top: 450px;
+            animation-name: anim-head7;
+            animation-duration: 2.6s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        seventh header starts here*/
+        
+    
+                             /*eighth header starts here*/
+        
+         @keyframes anim-head8{
+            from{
+                opacity: 0;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+            to{
+                opacity: 1;
+                margin-top: 10px;
+                z-index: 1;
+            }
+            
+        }
+        
+        .eighth-head{
+            margin-top: 450px;
+            animation-name: anim-head8;
+            animation-duration: 2.9s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        eighth header ends here*/
+
+
+/*Navlink forward animation ends here*/
+
+/*Navlink return animation*/
+        
+    
+       
+    /*        First header*/
+        @keyframes anim-head1-0{
+              from{
+                opacity: 1;
+                margin-top: -50px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+          
+            
+        }
+        
+        .return-head0{
+            margin-top: 450px;
+            animation-name: anim-head1-0;
+            animation-duration: 1.5s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }  
+        
+/*    First header*/
+       
+        
+        /*Second header starts here*/
+        
+         @keyframes anim-head2-0{
+            from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+            
+        }
+        
+        .return-head1{
+            margin-top: 450px;
+            animation-name: anim-head2-0;
+            animation-duration: 1.7s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        Second header starts here*/
+        
+             /*Third header starts here*/
+        
+         @keyframes anim-head3-0{
+            from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+            
+        }
+        
+       .return-head2{
+            margin-top: 450px;
+            animation-name: anim-head3-0;
+            animation-duration: 1.9s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        third header ends here*/
+        
+                /*Fourth header starts here*/
+        
+         @keyframes anim-head4-0{
+             from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+            
+        }
+        
+        .return-head3{
+            margin-top: 450px;
+            animation-name: anim-head4-0;
+            animation-duration: 2.1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        Fourth header starts here*/
+        
+   
+                
+                /*Fifth header starts here*/
+        
+         @keyframes anim-head5-0{
+            from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+            
+        }
+        
+        .return-head4{
+            margin-top: 450px;
+            animation-name: anim-head5-0;
+            animation-duration: 2.4s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        Fifth header starts here*/
+        
+    
+                      
+                /*Sixth header starts here*/
+        
+         @keyframes anim-head6-0{
+            from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+            
+        }
+        
+        .return-head5{
+            margin-top: 450px;
+            animation-name: anim-head6-0;
+            animation-duration: 2.6s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        sixth header starts here*/
+        
+    
+    
+                      /*Seventh header starts here*/
+        
+         @keyframes anim-head7-0{
+             from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+            
+        }
+        
+        .return-head6{
+            margin-top: 450px;
+            animation-name: anim-head7-0;
+            animation-duration: 2.6s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        seventh header starts here*/
+        
+    
+                             /*eighth header starts here*/
+        
+         @keyframes anim-head8-0{
+             from{
+                opacity: 1;
+                margin-top: 10px;
+            }
+            
+            50%{
+                opacity: 0.5;
+            }
+            
+              to{
+                opacity: 0;
+                  margin-top: 100px;
+            }
+        }
+        
+        .return-head7{
+            margin-top: 450px;
+            animation-name: anim-head8-0;
+            animation-duration: 2.9s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease;
+        }       
+/*        eighth header ends here*/
+        
+        /*Navlink return animation ends here*/
+        
+
+
+
+/*close mark*/
+
+#close_mark{
+    color: white;
+    text-align: end;
+    position: relative;
+    z-index: 1;
+    margin-right: 15px;
+}
